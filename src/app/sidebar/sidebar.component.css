@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+mat-drawer-container{
+    height: 100%;
+}
+
+.drawer{
+    background: #e8f5fe;
+    color: black;
+    display: flex;
+}
+
+.heading{
+    margin: .5em 0;
+}
+
+.side-container{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: auto .5rem;
+}
+.side-container>*{
+    margin: .25em;
+}
+/*```````````````````````````` search container `````````````````````*/
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: .5em;
+}
+
+.search-container input{
+    border: none;
+    outline: none;
+}
+
+
+/* ````````````````` patient container ``````````````````````` */
+
+.patient-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-radius: .25em;
+    width: 13rem;
+}
+
+.name-img{
+    display: flex;
+}
+
+.name-img span img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.patient-details>*{
+    margin: 0 .5em;
+}
+
+.red{
+    width: .5em;
+    height: .5em;
+    background: red;
+    border-radius: 50%;
+}
+
+.patient-container:hover{
+    background: #00a0f0;
+    color: white;
+}

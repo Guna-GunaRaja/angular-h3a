@@ -1,0 +1,35 @@
+.Navbar{
+    display: flex;
+    background: white;
+    color: black;
+    margin-bottom: .5rem;
+    align-items: center;
+}
+
+.Navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: medium;
+}
+
+.Navbar ul>*{
+    padding: 0 1.5em;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+.Navbar ul{
+    height: 100%;
+}
+
+.Navbar ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar ul li:hover{
+    background: #00a0f0;
+    color: white;
+}

@@ -1,0 +1,28 @@
+<mat-drawer-container class="example-container" >
+    <mat-drawer class="drawer" opened mode="side">
+      <div class="side-container">
+        <h5 class="heading" >Patients</h5>
+        <div class="search-container">
+          <input placeholder="Search Patients" type="text"><mat-icon>search</mat-icon>
+        </div>
+        <div class="patient-container" *ngFor ="let patient of Patients">
+          <div class="name-img">
+            <span>
+              <img [src]=patient.image alt="">
+            </span>
+            <div class="patient-details">
+              <h5>{{ patient.patientName }}</h5>
+              <h6> {{ patient.admissionDate }} </h6>
+            </div>
+          </div>
+          <span class="red"></span>
+        </div>
+      </div>
+    </mat-drawer>
+    <mat-drawer-content>
+      <div class="main-content">
+        
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
