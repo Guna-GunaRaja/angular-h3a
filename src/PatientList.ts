@@ -26,7 +26,7 @@ export const patientList = [
         patientName:'James Johnson', 
         admissionDate:'15-Aug-2020', 
         status: false, 
-        image:'assets/media/user2.png',
+        image:'assets/media/user4.png',
         phone: '304-323-23s4',
         email: 'sara@email.com',
         gender: 'Male',
